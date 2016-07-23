@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Caculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style type="text/css">
+    .container {
+        border: 1px solid grey;
+        background-color: #F2F2F2;
+    }
+    
+    .col-xs-12 {
+        padding: 0px;
+    }
+    
+    .c1 {
+        border-radius: 0px;
+        border: none;
+        background-color: #F2F2F2;
+    }
+    
+    .c2 {
+        border-radius: 0px;
+        border: none;
+        background-color: #E6E6E6
+    }
+    
+    .col-xs-12 {
+        padding: 0px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="col-xs-3">계산기</div>
+                    <div class="col-xs-3"></div>
+                    <button class="col-xs-2 c1 glyphicon glyphicon-minus">
+                    </button>
+                    <button class="col-xs-2 c1 glyphicon glyphicon-unchecked">
+                    </button>
+                    <button class="col-xs-2 c1 glyphicon glyphicon-remove">
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-2 c1 glyphicon glyphicon-menu-hamburger">
+                    </button>
+                    <div class="col-xs-8 "></div>
+                    <button class="col-xs-2 c1">
+                        <img src="img.png" height="20" width="20">
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <input class="c" value="0" style="background-color: #F2F2F2;width:100%; text-align: right;padding-right:20px;font-weight: bold; font-size: 2.0em;height: 70px;border: none;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12" style="border-bottom: 1px solid grey;">
+                    <button class="col-xs-2 c1">MC</button>
+                    <button class="col-xs-2 c1">MR</button>
+                    <button class="col-xs-2 c1">M+</button>
+                    <button class="col-xs-2 c1">M-</button>
+                    <button class="col-xs-2 c1">MS</button>
+                    <button class="col-xs-2 c1">M▾</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c1">
+                        <h3>%</h3></button>
+                    <button class="col-xs-3 c1">
+                        <h3>⎷</h3></button>
+                    <button class="col-xs-3 c1">
+                        <h3>𝑥²</h3></button>
+                    <button class="col-xs-3 c1">
+                        <h3>¹⁄𝑥</h3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c2">
+                        <h3>CE</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>C</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>⌫</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>÷</h3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c2">
+                        <h3>1</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>2</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>3</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>x</h3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c2">
+                        <h3>4</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>5</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>6</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>-</h3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c2">
+                        <h3>7</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>8</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>9</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>+</h3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="col-xs-3 c2">
+                        <h3>±</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>0</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>.</h3></button>
+                    <button class="col-xs-3 c2">
+                        <h3>=</h3></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
