@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>g</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style type="text/css">
+    .bar {
+  height: 39px;
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid rgb(185,185,185);
+  border-radius: 1px;
+  cursor: text;
+  display: inline-block;
+  font: 18px arial,sans-serif;
+  line-height: 36px;
+  position: relative;
+  width: 671px
+
+    }
+    
+    a .tile {
+        width: 154px;
+        height: 128px;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar-default" style="border-style: none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-right">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li id="li">
+                                <!-- Gmail -->
+                                <a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+                            </li>
+                            <li id="li">
+                                <!-- image -->
+                                <a href="https://www.google.co.nz">images</a>
+                            </li>
+                            <li class="dropdown" role="presentation">
+                                <!-- apps -->
+                                <a class="glyphicon glyphicon-th" title="header" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" height="30" width="30">
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">menu</a></li>
+                                </ul>
+                                <!-- dropbox가 펼쳐지지 않아요-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-12">
+                <div style=" text-align:-webkit-center; margin-top: 45px;">
+                    <!-- google logo -->
+                    <div>
+                        <img src="images/googlelogo.png" height="92" width="272">
+                    </div>
+                    <!-- sub logo -->
+                    <div style="color: #4285f4; font-size: 16px; left: 79px; position: relative; top: -20px; white-space: nowrap; width: 0">
+                        New Zealand
+                    </div>
+                </div>
+                <div class="row" style="margin: 0px auto;">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <!-- search bar -->
+                        <input type="text" class="bar" placeholder=" Search Google or type URL">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+        <div style="margin: 0px auto;" class="text-center">
+        <!--타일이 바르게 정렬이 안돼요-->
+            <div class="row">
+                <div style="width: 688px;" class="container">
+                    <div class="row text-center" style="margin-top: 50px; float: left;">
+                        <!-- tiles -->
+                        <div class="col-xs-5 col-md-3">
+                            <a href="#" class="tile">
+                                <img src="images/1.bmp" alt="1">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3">
+                            <a href="#" class="tile">
+                                <img src="images/2.bmp" alt="2">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3">
+                            <a href="#" class="tile">
+                                <img src="images/3.bmp" alt="3">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xs-5 col-md-3 hidden-xs">
+                            <a href="#" class="tile">
+                                <img src="images/4.bmp" alt="4">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3 hidden-xs">
+                            <a href="#" class="tile">
+                                <img src="images/5.bmp" alt="5">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3 hidden-xs">
+                            <a href="#" class="tile">
+                                <img src="images/6.bmp" alt="6">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3 hidden-sm hidden-xs">
+                            <a href="#" class="tile">
+                                <img src="images/7.bmp" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-xs-5 col-md-3 hidden-sm hidden-xs">
+                            <a href="#" class="tile">
+                                <img src="images/8.bmp" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
