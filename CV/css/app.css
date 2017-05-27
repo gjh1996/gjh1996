@@ -1,0 +1,140 @@
+
+body {
+	background-color:  #18bc9c;
+	color: #6c6c6c;
+}
+
+
+.cv_body {
+	background-color:  white;
+	border-radius: 10px;
+	width: 940px;
+	padding: 30px;
+	margin: auto;
+}
+.social {
+	display: inline-block;
+	margin: 10px 0px;
+}
+.social a {
+	color: white;
+}
+.social a:hover {
+	clear: both;
+}
+h1, h3, h4, h6 {
+	margin: 10px;
+	color: #171717;
+}
+
+.page-header{
+	border-bottom: 0px;
+}
+header {
+	margin: 20px;
+}
+header #cv_name {
+	font-size: 50px;
+}
+hr {
+	border-top: 1px solid #ccc;
+}
+@media (max-width: 750px) {
+	.cv_body {
+		border-radius: 0px;
+		margin: 0px;
+		width: auto;
+	}
+	section #photo {
+		width: 300px;
+	}
+}
+@media (min-width: 750px) and (max-width: 1000px) {
+	.cv_body {
+		width: 720px;
+	}
+
+	section #photo {
+		width: 200px;
+	}
+}
+
+section li {
+	margin-left: 20px;
+}
+
+section #photo {
+	margin-left: auto;
+	margin-right: auto;
+}
+section .cv_text {
+	margin: 20px;
+}
+section .cv_color {
+	color: #18bc9c;
+}
+section .progress {
+	margin: 10px;
+	margin-bottom: 20px;
+	height: 2px;
+	background-color: #4a4a4a;
+	background-image: none;
+
+}
+section .progress-bar-cv {
+	background-color: #18bc9c;
+	background-image: none;
+}
+section .media {
+	margin-left: 30px;
+}
+section .cv_bars {
+	margin: 0 25px;
+}
+
+section .aix {
+	background-color: #93278a;
+	background-image: none;
+}
+section .linus {
+	background-color: #f78539;
+	background-image: none;
+}
+footer {
+	border-top: 1px #ccc solid;
+	padding-top: 30px;
+	margin-top: 50px;
+}
+footer .btn {
+	color: #18bc9c;
+	background-image: none;
+	border: 1px #18bc9c solid;
+	border-radius: 0px;
+}
+footer .btn:hover {
+	background-color: #18bc9c;
+	color: white;
+	border: 1px #18bc9c solid;
+}
+
+
+@keyframes cv_animate {
+	from {
+		transform: translate3d(0, 100%, 0);
+		visibility: visible;
+		opacity: 0;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+.cv_animate {
+	animation-name: cv_animate;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-delay: 0.1s;
+	visibility: visible;
+}
